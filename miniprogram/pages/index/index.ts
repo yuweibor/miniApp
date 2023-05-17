@@ -14,6 +14,8 @@ Page({
   },
   data: {
   },
-  
+  jump(){
+    wx.navigateTo({url:"../logs/logs"});
+  }
 
 })

@@ -1,5 +1,3 @@
-<view>
-  <view wx:for="{{btns}}">
-    <button bind:tap="click">{{item.name}}</button>
-  </view>
+<view class="container">
+  <button bind:tap="jump">aa</button>
 </view>

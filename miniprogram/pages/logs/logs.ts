@@ -18,4 +18,7 @@ Page({
       }),
     })
   },
+  jumpToList(){
+    wx.navigateTo({url:"../list/list"});
+  }
 })
