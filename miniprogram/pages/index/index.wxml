@@ -1,0 +1,5 @@
+<view>
+  <view wx:for="{{btns}}">
+    <button bind:tap="click">{{item.name}}</button>
+  </view>
+</view>
